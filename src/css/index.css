@@ -1,0 +1,15 @@
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-size: 148px;
+    line-height: 1.5;
+    font-weight: 600;
+    padding-top: 200px;
+}
+
+.item:hover{
+    color: rgb(136, 128, 128);
+}

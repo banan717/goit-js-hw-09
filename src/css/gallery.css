@@ -1,0 +1,25 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  column-gap: 24px;
+  row-gap: 48px;  
+  justify-content: center;
+  list-style: none;
+}
+
+.main-title{
+  padding-bottom: 30px;
+}
+
+.sl-overlay {
+  background: #2E2F42 !important;
+}
+
+.sl-navigation .sl-next,
+.sl-navigation .sl-prev,
+.sl-close {
+  color: white !important;
+  fill: white !important;
+  stroke: white !important;
+}
+
